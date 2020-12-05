@@ -62,4 +62,13 @@ public class CircularQueue {
         return item;
     }
 
+    @Override
+    public String toString() {
+        String result = "{ ";
+        for (int i : this.circularQueue
+        ) {
+            result = result + i + " ,";
+        }
+        return result + " }";
+    }
 }
