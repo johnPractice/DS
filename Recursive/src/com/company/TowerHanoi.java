@@ -16,6 +16,6 @@ public class TowerHanoi {
     public static void main(String args[])
     {
         int n = 4; //(2^n)-1
-        towerOfHanoi(2, 'A', 'C', 'B');  
+        towerOfHanoi(2, 'A', 'C', 'B');
     }
 }
